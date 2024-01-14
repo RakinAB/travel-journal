@@ -13,7 +13,8 @@ export default function Card(props){
                         </a>
                     </span>
                 </div>
-                <h4>{props.startDate}-{props.endDate}</h4>
+                <h1>{props.title}</h1>
+                <h4>{props.startDate} - {props.endDate}</h4>
                 <p>{props.description}</p>
             </div>
         </div>
