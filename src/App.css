@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0;
+  font-family: "Poppons", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+nav{
+  height: 80px;
+  display:flex;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+  background-color: aliceblue;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px 36px;
 }
 
-.App-link {
-  color: #61dafb;
+.world{
+  max-width: 50px;
+  max-height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav > h1{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.card{
+  width:700px;
+  height:300px;
+  display:flex;
+  flex-direction: row;
+  margin:auto;
+  padding:20px;
+}
+
+.card-img{
+  width: 30%;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.trip-info{
+  width:400px;
+  margin-top: 20px;
+}
+
+.trip-header{
+  display: flex;
+}
+
+.location-pin{
+  margin-right:5px;
+  height:20px;
+}
+
+.google-maps{
+  margin-left:10px;
+}
+
+.link{
+  color: rgb(177, 176, 176);
+  font-size: 13px;
 }

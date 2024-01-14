@@ -1,0 +1,32 @@
+export default[
+    {
+        id: 1,
+        title: "Pantheon",
+        location: "Italy",
+        link: "https://www.google.com/maps/place/Pantheon/@41.8986108,12.4768729,17z/data=!3m1!4b1!4m6!3m5!1s0x132f604f678640a9:0xcad165fa2036ce2c!8m2!3d41.8986108!4d12.4768729!16zL20vMDF4emR6?entry=ttu",
+        startDate:"12 Dec, 2023",
+        endDate:"20 Dec, 2023",
+        description: "Iconic temple built circa 118 to 125 A.D. with a dome & Renaissance tombs, including Raphael's.",
+        img:"Pantheon.png",
+    },
+    {
+        id: 2,
+        title: "Mount Fuji",
+        location: "Japan",
+        link: "https://www.google.com/maps/place/Mount+Fuji/@35.360625,138.7273634,14z/data=!3m1!4b1!4m6!3m5!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.3606255!4d138.7273634!16zL20vMGNrczA?entry=ttu",
+        startDate:"01 June, 2022",
+        endDate:"15 June, 2022",
+        description: "Iconic snow-capped peak & volcano, the highest in Japan & the 7th highest island peak on earth",
+        img:"MountFuji.png",
+    },
+    {
+        id: 3,
+        title: "Grand Canyon",
+        location: "Arizona",
+        link: "https://www.google.com/maps/place/Grand+Canyon+National+Park/@36.2678855,-112.493601,11z/data=!4m10!1m2!2m1!1sgrand+canyon!3m6!1s0x873312ae759b4d15:0x1f38a9bec9912029!8m2!3d36.2678855!4d-112.3535253!15sCgxncmFuZCBjYW55b25aDiIMZ3JhbmQgY2FueW9ukgENbmF0aW9uYWxfcGFya-ABAA!16zL20vMGNucnI?entry=ttu",
+        startDate:"15 July, 2021",
+        endDate:"30 July, 2021",
+        description: "World-famous sight where the Colorado River has carved its way through the Arizonan desert.",
+        img:"GrandCanyon.png",
+    },
+]
